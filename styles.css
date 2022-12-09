@@ -6,7 +6,6 @@
 
 body {
   margin: 60px auto;
-  max-width: 1000px;
 }
 
 h1,
@@ -93,9 +92,28 @@ p {
 }
 
 .top {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .margin-bottom {
     margin-bottom: 40px;
+}
+
+@media(max-width: 576px) {
+  .col-sm-6 .rounded {
+      display: none;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .blue-button {
+    display: block;
+    text-align: center;
+  }
 }
